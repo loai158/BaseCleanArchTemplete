@@ -1,0 +1,15 @@
+D:\.net\projects\BaseCleanArchTemplete\Service\bin\Debug\net9.0\Service.deps.json
+D:\.net\projects\BaseCleanArchTemplete\Service\bin\Debug\net9.0\Service.dll
+D:\.net\projects\BaseCleanArchTemplete\Service\bin\Debug\net9.0\Service.pdb
+D:\.net\projects\BaseCleanArchTemplete\Service\bin\Debug\net9.0\Domain.dll
+D:\.net\projects\BaseCleanArchTemplete\Service\bin\Debug\net9.0\Domain.pdb
+D:\.net\projects\BaseCleanArchTemplete\Service\obj\Debug\net9.0\Service.csproj.AssemblyReference.cache
+D:\.net\projects\BaseCleanArchTemplete\Service\obj\Debug\net9.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\projects\BaseCleanArchTemplete\Service\obj\Debug\net9.0\Service.AssemblyInfoInputs.cache
+D:\.net\projects\BaseCleanArchTemplete\Service\obj\Debug\net9.0\Service.AssemblyInfo.cs
+D:\.net\projects\BaseCleanArchTemplete\Service\obj\Debug\net9.0\Service.csproj.CoreCompileInputs.cache
+D:\.net\projects\BaseCleanArchTemplete\Service\obj\Debug\net9.0\Service.csproj.Up2Date
+D:\.net\projects\BaseCleanArchTemplete\Service\obj\Debug\net9.0\Service.dll
+D:\.net\projects\BaseCleanArchTemplete\Service\obj\Debug\net9.0\refint\Service.dll
+D:\.net\projects\BaseCleanArchTemplete\Service\obj\Debug\net9.0\Service.pdb
+D:\.net\projects\BaseCleanArchTemplete\Service\obj\Debug\net9.0\ref\Service.dll

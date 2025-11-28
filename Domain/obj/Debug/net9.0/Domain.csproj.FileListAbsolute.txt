@@ -1,0 +1,12 @@
+D:\.net\projects\BaseCleanArchTemplete\Domain\bin\Debug\net9.0\Domain.deps.json
+D:\.net\projects\BaseCleanArchTemplete\Domain\bin\Debug\net9.0\Domain.dll
+D:\.net\projects\BaseCleanArchTemplete\Domain\bin\Debug\net9.0\Domain.pdb
+D:\.net\projects\BaseCleanArchTemplete\Domain\obj\Debug\net9.0\Domain.csproj.AssemblyReference.cache
+D:\.net\projects\BaseCleanArchTemplete\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\projects\BaseCleanArchTemplete\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+D:\.net\projects\BaseCleanArchTemplete\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+D:\.net\projects\BaseCleanArchTemplete\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+D:\.net\projects\BaseCleanArchTemplete\Domain\obj\Debug\net9.0\Domain.dll
+D:\.net\projects\BaseCleanArchTemplete\Domain\obj\Debug\net9.0\refint\Domain.dll
+D:\.net\projects\BaseCleanArchTemplete\Domain\obj\Debug\net9.0\Domain.pdb
+D:\.net\projects\BaseCleanArchTemplete\Domain\obj\Debug\net9.0\ref\Domain.dll
