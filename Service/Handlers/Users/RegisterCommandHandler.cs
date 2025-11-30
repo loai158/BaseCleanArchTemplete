@@ -23,12 +23,14 @@ namespace Service.Handlers.Users
         }
         public async Task<SimpleResult<AuthResponse>> Handle(RigisterUserCommand request, CancellationToken cancellationToken)
         {
-            var existingUser = await _userManager.FindByEmailAsync(request.Email);
-            if (existingUser != null)
-                return SimpleResult<AuthResponse>.Failure(ErrorCode.EmailAlreadyExists);
+            await _unitOfWork.BeginTransactionAsync();
 
             try
             {
+                var existingUser = await _userManager.FindByEmailAsync(request.Email);
+                if (existingUser != null)
+                    return SimpleResult<AuthResponse>.Failure(ErrorCode.EmailAlreadyExists);
+
                 var user = new ApplicationUser
                 {
                     UserName = request.Email,
@@ -38,11 +40,12 @@ namespace Service.Handlers.Users
                 var result = await _userManager.CreateAsync(user, request.Password);
                 if (!result.Succeeded)
                 {
-                    return SimpleResult<AuthResponse>.Failure(ErrorCode.InvalidPassword, string.Join(", ", result.Errors.Select(e => e.Description)));
+                    await _unitOfWork.RollbackTransactionAsync();
+                    return SimpleResult<AuthResponse>.Failure(ErrorCode.InvalidPassword,
+                        string.Join(", ", result.Errors.Select(e => e.Description)));
                 }
 
-                await _unitOfWork.SaveChangesAsync();
-
+                // Create UserDetails
                 var userDetails = new UserDetails();
                 userDetails.CreateUserDetails(
                     firstName: request.FirstName,
@@ -50,11 +53,16 @@ namespace Service.Handlers.Users
                     userName: request.Username,
                     userId: user.Id
                 );
+
                 await _unitOfWork.Repository<UserDetails>().AddAsync(userDetails);
-                await _userManager.AddToRoleAsync(user, "User");
+
+                // Save everything inside transaction
                 await _unitOfWork.SaveChangesAsync();
 
+                // Create token
                 var jwtSecurityToken = await _authService.CreateJwtToken(user);
+
+                await _unitOfWork.CommitTransactionAsync();
 
                 var response = new AuthResponse
                 {
@@ -68,14 +76,18 @@ namespace Service.Handlers.Users
                     IsSuccess = true,
                     ExpiresOn = jwtSecurityToken.ValidTo,
                     Message = "Registration successful",
-                    UserName = user.UserName,
+                    UserName = userDetails.UserName,
                 };
 
                 return SimpleResult<AuthResponse>.Success(response);
             }
             catch (Exception ex)
             {
-                return SimpleResult<AuthResponse>.Failure(ErrorCode.InternalServerError, $"Registration failed: {ex.Message}");
+                await _unitOfWork.RollbackTransactionAsync();
+                return SimpleResult<AuthResponse>.Failure(
+                    ErrorCode.InternalServerError,
+                    $"Registration failed: {ex.Message}"
+                );
             }
         }
     }

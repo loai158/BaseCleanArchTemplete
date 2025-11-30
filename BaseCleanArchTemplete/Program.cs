@@ -1,4 +1,5 @@
 using BaseCleanArchTemplete.Configuration;
+using Domain.DTOs.User;
 using Infrastructure.Configuration;
 using Microsoft.Extensions.FileProviders;
 using Service.Configuration;
@@ -18,6 +19,8 @@ builder.Services.AddInfrastructureServices(builder.Configuration);
 builder.Services.AddServiceServices(builder.Configuration);
 builder.Services.AddSwaggerConfiguration();
 builder.Services.AddAuthenticationConfiguration(builder.Configuration);
+builder.Services.Configure<JWT>(builder.Configuration.GetSection("JWT"));
+
 var app = builder.Build();
 
 

@@ -17,3 +17,4 @@ D:\.net\projects\BaseCleanArchTemplete\Infrastructure\obj\Debug\net9.0\refint\In
 D:\.net\projects\BaseCleanArchTemplete\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
 D:\.net\projects\BaseCleanArchTemplete\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
 D:\.net\projects\BaseCleanArchTemplete\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll
+D:\.net\projects\BaseCleanArchTemplete\Infrastructure\obj\Debug\net9.0\Infrastructure.sourcelink.json
