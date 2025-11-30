@@ -178,3 +178,5 @@ D:\.net\projects\BaseCleanArchTemplete\BaseCleanArchTemplete\bin\Debug\net9.0\zh
 D:\.net\projects\BaseCleanArchTemplete\BaseCleanArchTemplete\bin\Debug\net9.0\BaseCleanArchTemplete.staticwebassets.runtime.json
 D:\.net\projects\BaseCleanArchTemplete\BaseCleanArchTemplete\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\.net\projects\BaseCleanArchTemplete\BaseCleanArchTemplete\obj\Debug\net9.0\BaseCleanArchTemplete.sourcelink.json
+D:\.net\projects\BaseCleanArchTemplete\BaseCleanArchTemplete\bin\Debug\net9.0\FluentValidation.dll
+D:\.net\projects\BaseCleanArchTemplete\BaseCleanArchTemplete\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll

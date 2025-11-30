@@ -1,6 +1,10 @@
 using BaseCleanArchTemplete.Configuration;
+using BaseCleanArchTemplete.Middelwares;
+using Domain.Behavior;
 using Domain.DTOs.User;
+using FluentValidation;
 using Infrastructure.Configuration;
+using MediatR;
 using Microsoft.Extensions.FileProviders;
 using Service.Configuration;
 using System.Reflection;
@@ -20,6 +24,8 @@ builder.Services.AddServiceServices(builder.Configuration);
 builder.Services.AddSwaggerConfiguration();
 builder.Services.AddAuthenticationConfiguration(builder.Configuration);
 builder.Services.Configure<JWT>(builder.Configuration.GetSection("JWT"));
+builder.Services.AddValidatorsFromAssembly(Assembly.Load("Domain"));
+builder.Services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
 
 var app = builder.Build();
 
@@ -47,6 +53,8 @@ app.UseStaticFiles(new StaticFileOptions
         Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "uploads")),
     RequestPath = "/uploads"
 });
+app.UseGlobalExceptionHandler();
+
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();

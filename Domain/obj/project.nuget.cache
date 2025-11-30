@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "soYk71uAOF0=",
+  "dgSpecHash": "yC+XVIF7Kk8=",
   "success": true,
   "projectFilePath": "D:\\.net\\projects\\BaseCleanArchTemplete\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kariZma\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512",
+    "C:\\Users\\kariZma\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.0\\fluentvalidation.dependencyinjectionextensions.12.1.0.nupkg.sha512",
     "C:\\Users\\kariZma\\.nuget\\packages\\mediatr\\13.1.0\\mediatr.13.1.0.nupkg.sha512",
     "C:\\Users\\kariZma\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\kariZma\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\9.0.11\\microsoft.aspnetcore.cryptography.internal.9.0.11.nupkg.sha512",
