@@ -5638,23 +5638,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kariZma\\.nuget\\packages\\": {},
+    "C:\\Users\\loaim\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.net\\projects\\BaseCleanArchTemplete\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\loaim\\source\\repos\\BaseTemplete\\BaseCleanArchTemplete\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\.net\\projects\\BaseCleanArchTemplete\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\kariZma\\.nuget\\packages\\",
-      "outputPath": "D:\\.net\\projects\\BaseCleanArchTemplete\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\loaim\\source\\repos\\BaseTemplete\\BaseCleanArchTemplete\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\loaim\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\loaim\\source\\repos\\BaseTemplete\\BaseCleanArchTemplete\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kariZma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\loaim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5663,17 +5666,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\.net\\projects\\BaseCleanArchTemplete\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\.net\\projects\\BaseCleanArchTemplete\\Domain\\Domain.csproj"
+            "C:\\Users\\loaim\\source\\repos\\BaseTemplete\\BaseCleanArchTemplete\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\loaim\\source\\repos\\BaseTemplete\\BaseCleanArchTemplete\\Domain\\Domain.csproj"
             },
-            "D:\\.net\\projects\\BaseCleanArchTemplete\\Service\\Service.csproj": {
-              "projectPath": "D:\\.net\\projects\\BaseCleanArchTemplete\\Service\\Service.csproj"
+            "C:\\Users\\loaim\\source\\repos\\BaseTemplete\\BaseCleanArchTemplete\\Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\loaim\\source\\repos\\BaseTemplete\\BaseCleanArchTemplete\\Service\\Service.csproj"
             }
           }
         }
@@ -5729,7 +5733,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
