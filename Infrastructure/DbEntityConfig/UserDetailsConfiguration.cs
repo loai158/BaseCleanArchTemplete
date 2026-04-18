@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Infrastructure.DbEntityConfig
 {
-    public class UserDetailsConfiguration : BaseEntityConfiguration<UserDetails>
+    public class UserDetailsConfiguration : BaseEntityConfiguration<Domain.Entities.User.UserDetails>
     {
-        public override void Configure(EntityTypeBuilder<UserDetails> entity)
+        public override void Configure(EntityTypeBuilder<Domain.Entities.User.UserDetails> entity)
         {
             base.Configure(entity);
             entity.HasKey(e => e.Id);

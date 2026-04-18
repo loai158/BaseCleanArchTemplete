@@ -1,6 +1,7 @@
-﻿using Domain.Entities.User;
+﻿using Domain.Entities.BaseEntity;
+using Domain.Entities.User;
 
-namespace Domain.Entities.BaseEntity
+namespace Domain.Entities.BaseEntities
 {
     public class BaseEntity : EntityWithNotifications
     {

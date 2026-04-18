@@ -1,11 +1,10 @@
-﻿using Domain.Entities.BaseEntity;
-using Domain.Entities.User;
+﻿using Domain.Entities.User;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Infrastructure.DbEntityConfig
 {
-    public abstract class BaseEntityConfiguration<T> : IEntityTypeConfiguration<T> where T : BaseEntity
+    public abstract class BaseEntityConfiguration<T> : IEntityTypeConfiguration<T> where T : Domain.Entities.BaseEntities.BaseEntity
     {
         public virtual void Configure(EntityTypeBuilder<T> builder)
         {

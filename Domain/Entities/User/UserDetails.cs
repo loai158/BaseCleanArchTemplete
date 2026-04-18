@@ -1,7 +1,7 @@
 ﻿
 namespace Domain.Entities.User
 {
-    public class UserDetails : BaseEntity.BaseEntity
+    public class UserDetails : BaseEntities.BaseEntity
     {
         public string FirstName { get; private set; }
         public string LastName { get; private set; }
