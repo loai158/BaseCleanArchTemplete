@@ -9,5 +9,16 @@
 
         public ICollection<Category> Children { get; set; } = new List<Category>();
         public ICollection<Product> Products { get; set; } = new List<Product>();
+        public void Create(string name, int? parentId)
+        {
+            Name = name;
+            ParentId = parentId;
+        }
+
+        public void Update(string name, int? parentId)
+        {
+            Name = name;
+            ParentId = parentId;
+        }
     }
 }
