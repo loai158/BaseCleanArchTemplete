@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yd5VV5TEJ/k=",
+  "dgSpecHash": "7RAeChPw168=",
   "success": true,
-  "projectFilePath": "C:\\Users\\loaim\\source\\repos\\BaseCleanArch\\BaseCleanArchTemplete\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\loaim\\source\\repos\\Kartona\\BaseCleanArchTemplete\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\loaim\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512",
     "C:\\Users\\loaim\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.0\\fluentvalidation.dependencyinjectionextensions.12.1.0.nupkg.sha512",

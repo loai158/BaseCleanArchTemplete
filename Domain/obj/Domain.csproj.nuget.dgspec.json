@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\loaim\\source\\repos\\BaseCleanArch\\BaseCleanArchTemplete\\Domain\\Domain.csproj": {}
+    "C:\\Users\\loaim\\source\\repos\\Kartona\\BaseCleanArchTemplete\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\loaim\\source\\repos\\BaseCleanArch\\BaseCleanArchTemplete\\Domain\\Domain.csproj": {
+    "C:\\Users\\loaim\\source\\repos\\Kartona\\BaseCleanArchTemplete\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\loaim\\source\\repos\\BaseCleanArch\\BaseCleanArchTemplete\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\loaim\\source\\repos\\Kartona\\BaseCleanArchTemplete\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\loaim\\source\\repos\\BaseCleanArch\\BaseCleanArchTemplete\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\loaim\\source\\repos\\Kartona\\BaseCleanArchTemplete\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\loaim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loaim\\source\\repos\\BaseCleanArch\\BaseCleanArchTemplete\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\loaim\\source\\repos\\Kartona\\BaseCleanArchTemplete\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

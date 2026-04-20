@@ -1,6 +1,6 @@
-@BaseCleanArchTemplete_HostAddress = http://localhost:5114
+@Kartona_HostAddress = http://localhost:5114
 
-GET {{BaseCleanArchTemplete_HostAddress}}/weatherforecast/
+GET {{Kartona_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

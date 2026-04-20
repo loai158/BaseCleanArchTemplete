@@ -2,7 +2,7 @@
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
-namespace BaseCleanArchTemplete.Configuration
+namespace Kartona.Configuration
 {
     public static class AuthenticationConfiguration
     {

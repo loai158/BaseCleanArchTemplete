@@ -3,7 +3,7 @@ using Domain.DTOs.User;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace BaseCleanArchTemplete.Controllers.Auth
+namespace Kartona.Controllers.Auth
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,6 +1,6 @@
 ﻿using Microsoft.OpenApi.Models;
 
-namespace BaseCleanArchTemplete.Configuration
+namespace Kartona.Configuration
 {
     public static class SwaggerConfiguration
     {

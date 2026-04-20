@@ -1,5 +1,5 @@
-using BaseCleanArchTemplete.Configuration;
-using BaseCleanArchTemplete.Middelwares;
+using Kartona.Configuration;
+using Kartona.Middelwares;
 using Domain.Behavior;
 using Domain.DTOs.User;
 using FluentValidation;

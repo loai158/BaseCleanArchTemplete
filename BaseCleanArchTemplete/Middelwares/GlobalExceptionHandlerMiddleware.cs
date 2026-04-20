@@ -1,7 +1,7 @@
 ﻿using Domain.Exceptions;
 using System.Text.Json;
 
-namespace BaseCleanArchTemplete.Middelwares
+namespace Kartona.Middelwares
 {
     public class GlobalExceptionHandlerMiddleware
     {

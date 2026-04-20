@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaseCleanArchTemplete")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a59d1969e780e4e1e54a8b69bd0bbc76af371dff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa2f1f60306b32fa3a75b01772e1b0be4267599a")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaseCleanArchTemplete")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaseCleanArchTemplete")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
