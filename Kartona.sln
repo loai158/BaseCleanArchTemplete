@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36202.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseCleanArchTemplete", "BaseCleanArchTemplete\BaseCleanArchTemplete.csproj", "{E338DF0D-D730-4C1D-9D48-26048780A3D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kartona", "Kartona\Kartona.csproj", "{E338DF0D-D730-4C1D-9D48-26048780A3D3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{2C13B448-3BC3-43E7-88B0-DA77FC53CEF3}"
 EndProject

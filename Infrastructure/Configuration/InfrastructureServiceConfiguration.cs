@@ -31,5 +31,20 @@ namespace Infrastructure.Configuration
 
             return services;
         }
+        public static async Task SeedRolesAsync(this IServiceProvider services)
+        {
+            var roleManager = services.GetRequiredService<RoleManager<ApplicationRole>>();
+
+            var roles = new[] { "Admin", "Retailer", "Supplier" };
+
+            foreach (var role in roles)
+            {
+                if (!await roleManager.RoleExistsAsync(role))
+                {
+                    await roleManager.CreateAsync(new ApplicationRole { Name = role });
+                    Console.WriteLine($"✅ Role '{role}' created");
+                }
+            }
+        }
     }
 }
